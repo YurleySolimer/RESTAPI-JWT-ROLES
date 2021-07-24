@@ -26,6 +26,6 @@ app.get('/', (req, res) => {
 
 app.use('/products', productsRouter)
 app.use('/auth', authRouter)
-app.use(usersRouter)
+app.use('/users', usersRouter)
 
 export default app;
